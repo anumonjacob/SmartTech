@@ -10,12 +10,12 @@ import { NotfoundComponent } from './components/notfound/notfound.component';
 
 export const routes: Routes = [
 
-    {title: "ADS | Home", path:'' , component: HeaderComponent},
-    {title: "ADS | Home", path:'home' , component: HeaderComponent},
-    {title: "ADS | About", path:'about' , component: AboutComponent},
-    {title: "ADS | Client", path:'clients' , component: ClientsComponent},
-    {title: "ADS | Gallery", path:'gallery' , component: GalleryComponent},
-    {title: "ADS | Services", path:'services' , component: ServicesComponent},
-    {title: "ADS | Not Found", path:'**' , component: NotfoundComponent},
+    {title: "SMART TECH | Home", path:'' , component: HeaderComponent},
+    {title: "SMART TECH | Home", path:'home' , component: HeaderComponent},
+    {title: "SMART TECH | About", path:'about' , component: AboutComponent},
+    {title: "SMART TECH | Client", path:'clients' , component: ClientsComponent},
+    {title: "SMART TECH | Gallery", path:'gallery' , component: GalleryComponent},
+    {title: "SMART TECH | Services", path:'services' , component: ServicesComponent},
+    {title: "SMART TECH | Not Found", path:'**' , component: NotfoundComponent},
 
 ];
